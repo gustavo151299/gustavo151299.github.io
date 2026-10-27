@@ -1,5 +1,9 @@
-# Currículo — Gustavo Dos Santos
+# Distrito Full Stack — Currículo interativo
 
-Currículo publicado como página web, aberto em **https://gustavo151299.github.io**
+Currículo interativo de **Gustavo Dos Santos**, Analista de Sistemas e Desenvolvedor Full Stack.
 
-Analista de Sistemas · Desenvolvedor Full Stack · Joinville, SC
+Abre em **https://gustavo151299.github.io**
+
+Oito cenas isométricas em Three.js renderizadas numa única tela, cada uma com câmera e
+luz próprias, mais linha do tempo da carreira, fichas técnicas por projeto e um modo
+texto para leitura direta.
