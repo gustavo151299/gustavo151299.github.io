@@ -789,7 +789,9 @@
     requestAnimationFrame(animate);
     resizeCanvas();
     var t = performance.now()*0.001;
+    renderer.setScissorTest(false);
     renderer.clear();
+    renderer.setScissorTest(true);
     rooms.forEach(function(r){
       r.scene.traverse(function(o){
         if(o.userData && o.userData.leds){ o.userData.leds.forEach(function(l,i){ l.material.emissiveIntensity = (Math.sin(t*1.4+i*1.1)>0.25)?.9:.12; }); }
